@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body { font-family: 'Roboto', sans-serif; }
+.title{
+    font-weight: bold;
+    text-align: center;
+}
+.profile_card{
+    border: 2px solid #ccc;
+    width : 320px;
+    margin : 20px auto;
+    padding : 20px;
+}
+.contact_me_button{
+    background-color: blue;
+    color : white;
+    font-weight: bold;
+    border : none;
+    border-radius : 5px;
+    padding: 10px;
+    margin-left :25px;
+    transition : background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.contact_me_button:hover{
+    background-color: rgb(64, 64, 255);
+}
+.contact_me_button:selection{
+    background-color: rgb(3, 3, 140);
+}
