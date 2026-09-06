@@ -21,8 +21,8 @@ body { font-family: 'Roboto', sans-serif; }
     transition : background-color 0.3s ease, box-shadow 0.3s ease;
 }
 .contact_me_button:hover{
-    background-color: rgb(64, 64, 255);
+    background-color: #ea1294;
 }
-.contact_me_button:selection{
-    background-color: rgb(3, 3, 140);
+.contact_me_button:active{
+    background-color: rgb(1, 1, 92);
 }
